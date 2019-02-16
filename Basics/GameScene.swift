@@ -18,6 +18,10 @@ class GameScene: SKScene {
         myShip.yScale = 0.25
         
         let player: SKSpriteNode = SKSpriteNode(imageNamed: "player")
+        player.position = CGPoint(x: 100, y: 100)
+        player.xScale = 0.25
+        player.yScale = 0.25
+        
         self.addChild(player)
         
     }
