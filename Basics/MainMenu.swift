@@ -9,5 +9,7 @@
 import SpriteKit
 
 class MainMenu: SKScene {
-
+    override func didMove(to view: SKView) {
+        print("Main Menu Class Success!!")
+    }
 }
