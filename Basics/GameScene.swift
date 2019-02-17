@@ -9,7 +9,7 @@
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var player: SKSpriteNode?
     var fireRate: TimeInterval = 0.5
@@ -26,10 +26,17 @@ class GameScene: SKScene {
 //        player.position = CGPoint(x: 0, y: 223)
 //        player.xScale = 0.25
 //        player.yScale = 0.25
+        
+        self.physicsWorld.contactDelegate = self
+        
         player = self.childNode(withName: "ship") as? SKSpriteNode
         
         //self.addChild(player)
         
+    }
+    
+    func didBegin(_ contact: SKPhysicsContact) {
+        print("Hit")
     }
     
     
