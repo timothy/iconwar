@@ -19,6 +19,7 @@
 		EB43B5EF2218B24D00615BA5 /* BasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB43B5EE2218B24D00615BA5 /* BasicsUITests.swift */; };
 		EB91643C2218C42300D488BE /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB91643B2218C42300D488BE /* MainMenu.sks */; };
 		EB91643E2218C60200D488BE /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB91643D2218C60200D488BE /* MainMenu.swift */; };
+		EBB4CFF72219055A003ED2D1 /* Laser.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBB4CFF62219055A003ED2D1 /* Laser.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		EB43B5F02218B24D00615BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB91643B2218C42300D488BE /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 		EB91643D2218C60200D488BE /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		EBB4CFF62219055A003ED2D1 /* Laser.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Laser.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				EB43B5D52218B24C00615BA5 /* Assets.xcassets */,
 				EB43B5D72218B24D00615BA5 /* LaunchScreen.storyboard */,
 				EB43B5DA2218B24D00615BA5 /* Info.plist */,
+				EBB4CFF62219055A003ED2D1 /* Laser.sks */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				EB43B5D42218B24A00615BA5 /* Main.storyboard in Resources */,
 				EB91643C2218C42300D488BE /* MainMenu.sks in Resources */,
 				EB43B5CB2218B24A00615BA5 /* GameScene.sks in Resources */,
+				EBB4CFF72219055A003ED2D1 /* Laser.sks in Resources */,
 				EB43B5D62218B24C00615BA5 /* Assets.xcassets in Resources */,
 				EB43B5D92218B24D00615BA5 /* LaunchScreen.storyboard in Resources */,
 				EB43B5CD2218B24A00615BA5 /* Actions.sks in Resources */,
